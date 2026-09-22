@@ -2,7 +2,8 @@
 
 > **每秒 $0.0329（480P）**，按量计费，最低 1 美元起充。同一个 OpenAI 兼容接口，`https://api.apimart.ai/v1`。
 
-**[查看 Wan 3.0 模型页](https://go.apimart.ai/k-ea9a02)** · **[实时价格](https://go.apimart.ai/k-420c16)** · **[获取 API Key](https://go.apimart.ai/k-39456d)**
+<p align="center"><img src="assets/01-preview-thumb.jpg" width="820" alt="Wan 3.0 sample frame"></p>
+**[查看 Wan 3.0 模型页](https://apimart.ai/zh/model/wan-3-0)** · **[实时价格](https://apimart.ai/zh/pricing)** · **[获取 API Key](https://apimart.ai/zh/keys)**
 
 阿里最新一代视频模型，480P 档每秒不到 3.3 美分，文生视频和图生视频同一套接口。
 
@@ -20,6 +21,13 @@
 | `model` | `wan3.0-video` |
 | endpoint | `POST https://api.apimart.ai/v1/videos/generations` |
 | task | GET /v1/tasks/{id} |
+
+
+## 真实调用样例（下表每条都是实际跑出来的结果）
+
+| 输出档位 | file | 花费 | prompt |
+| --- | --- | --- | --- |
+| <img src="assets/01-preview-thumb.jpg" width="260"> | [01-preview.mp4](assets/01-preview.mp4) | $0.1644 | `海边悬崖上的现代别墅，黄昏，泳池倒映天空，缓慢推镜` |
 
 ## 实测价格
 
